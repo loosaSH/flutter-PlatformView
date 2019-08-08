@@ -20,7 +20,7 @@ class AndroidTextView(context: Context,
     init {
         val text = params?.get("text") as CharSequence?
 
-        mAndroidTextView.text = if (text == null) {
+        mAndroidTextView.text = if (!text.isNullOrEmpty()) {
             text
         } else {
             "android端TextView"
