@@ -33,7 +33,7 @@ class TextPage extends StatelessWidget {
           children: <Widget>[
             Text("这里是flutter的Text"),
             Expanded(
-              child: PlatformTextWidget(text:"123"),
+              child: PlatformTextWidget(text: "123",),
             ),
             Text("这里是flutter的Text"),
           ],

@@ -12,7 +12,7 @@ class SharePlatformViewFactory(private val messenger: BinaryMessenger)
     : PlatformViewFactory(StandardMessageCodec.INSTANCE) {
 
     override fun create(context: Context, id: Int, args: Any?): PlatformView {
-        val params = args?.let { args as Map<String, Any> }
+        val params = args?.let { args as? Map<String, Any> }
         return AndroidTextView(context, messenger, id, params)
 
     }
