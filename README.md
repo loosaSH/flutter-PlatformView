@@ -819,7 +819,7 @@ RenderObject 的最终大小的确定有两种情况，一个是由父节点所�
 
 > https://github.com/flutter/plugins
 
-其中的 [webview_flutter](https://github.com/flutter/plugins/blob/master/packages/webview_flutter) 、[google_maps_flutter](https://github.com/flutter/plugins/blob/master/packages/google_maps_flutter) 就是通过 platform view，就是一个很好的 demo 。
+其中的 [webview_flutter](https://github.com/flutter/plugins/blob/master/packages/webview_flutter) 、[google_maps_flutter](https://github.com/flutter/plugins/blob/master/packages/google_maps_flutter) 就是通过 platform view，就是一个很好的示例 。
 
 
 
